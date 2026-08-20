@@ -1,0 +1,28 @@
+{
+  "SubjectArtefactDescription": "n/a",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "FilterDescription": {
+      "Description": "1-3Hz"
+    }
+  },
+  "HardwareFilters": {
+    "FilterDescription": {
+      "Description": "DC-200Hz"
+    }
+  },
+  "SoftwareVersions": "Curry 7.0",
+  "ManufacturersModelName": "SynAmpsRT",
+  "Manufacturer": "Neuroscan-Compumedics",
+  "EEGPlacementScheme": "custom",
+  "EEGGround": "between FPz and Fz",
+  "EEGReference": "Left Mastoid",
+  "CapManufacturersModelName": "29 site electrodes",
+  "CapManufacturer": "Electro-Cap International, INC",
+  "InstitutionAddress": "San Diego, CA",
+  "InstitutionName": "San Diego State University",
+  "TaskName": "unnamed",
+  "RecordingType": "continuous",
+  "RecordingDuration": 1500.7,
+  "SamplingFrequency": 500
+}
