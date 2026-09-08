@@ -1,30 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on008711",
-  "source": "openneuro",
-  "source_id": "ds008711",
+  "pipeline_stage": "validated",
   "title": "RSVP with flankers - sentences with semantic and syntactic violations",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Emily M. Akers": {},
     "Katherine J. Midgley": {},
     "Phillip J. Holcomb": {},
     "Karen Emmorey": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008711.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008711",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008711",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "36 B (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx"
+  ],
+  "description": "This dataset contains EEG recordings from an RSVP-with-flankers reading paradigm examining sentences with semantic and syntactic violations. Participants viewed 180 sentences containing subject-verb agreement, semantic, double, and word-order violations, as well as correct control sentences, while EEG was recorded to study neural responses to linguistic violations. Data were collected at San Diego State University's NeuroCognition Laboratory.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room viewing an LCD monitor at 60 in (152 cm). Sentences were presented using an RSVP-with-flankers design, with three words shown simultaneously in the center of the screen; each word appeared for 400ms before sliding right and being replaced by the next word, with no ISI. Stimuli included 30 subject-verb agreement violations, 30 semantic violations, 30 double violations, 30 word-order violations, and 60 control sentences.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "RSVP"
+    },
+    {
+      "term": "sentence processing"
+    },
+    {
+      "term": "semantic violation"
+    },
+    {
+      "term": "syntactic violation"
+    },
+    {
+      "term": "language comprehension"
+    }
+  ],
+  "source_hash": "3a6acf497ae276842b888e0ebba1ed6f352aec87819009c3a396afa212061452"
 }
