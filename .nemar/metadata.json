@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RSVP with flankers - sentences with semantic and syntactic violations",
+  "description": "This dataset contains EEG recordings from an RSVP-with-flankers reading paradigm examining sentence processing of semantic and syntactic violations. Participants viewed 180 sentences containing subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences, presented word-by-word with flanking words visible. The study was conducted at the NeuroCognition Laboratory to investigate neural correlates of language comprehension using event-related potentials.",
+  "methods_description": "Participants sat in a darkened sound-attenuated room and viewed sentences on an LCD monitor at 152 cm viewing distance, presented via RSVP with flankers (three words shown simultaneously, each central word displayed for 400ms with no ISI, sliding rightward to reveal the next word). Stimuli comprised 180 sentences across five conditions: subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct controls (30 each except 60 controls). EEG was recorded while participants read the sentences and made behavioral responses via keyboard and verbal responses recorded with a headset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,30 @@
     "Phillip J. Holcomb": {},
     "Karen Emmorey": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds008711.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "sentence processing"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "semantic violation"
+    },
+    {
+      "term": "syntactic violation"
+    },
+    {
+      "term": "RSVP"
+    },
+    {
+      "term": "psycholinguistics"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on008711",
       "identifier_type": "URL",
@@ -25,14 +45,19 @@
       "identifier": "https://nemar.org/dataset/on008711",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds008711.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "36 B (1 files)"
+    "6.21 GB (131 files)"
   ],
   "formats": [
     ".fdt",
@@ -40,29 +65,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings from an RSVP-with-flankers reading paradigm examining sentences with semantic and syntactic violations. Participants viewed 180 sentences containing subject-verb agreement, semantic, double, and word-order violations, as well as correct control sentences, while EEG was recorded to study neural responses to linguistic violations. Data were collected at San Diego State University's NeuroCognition Laboratory.",
-  "methods_description": "Participants sat in a darkened, sound-attenuated room viewing an LCD monitor at 60 in (152 cm). Sentences were presented using an RSVP-with-flankers design, with three words shown simultaneously in the center of the screen; each word appeared for 400ms before sliding right and being replaced by the next word, with no ISI. Stimuli included 30 subject-verb agreement violations, 30 semantic violations, 30 double violations, 30 word-order violations, and 60 control sentences.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "RSVP"
-    },
-    {
-      "term": "sentence processing"
-    },
-    {
-      "term": "semantic violation"
-    },
-    {
-      "term": "syntactic violation"
-    },
-    {
-      "term": "language comprehension"
-    }
-  ],
-  "source_hash": "3a6acf497ae276842b888e0ebba1ed6f352aec87819009c3a396afa212061452"
+  "source_hash": "febd24d437d001438b964f3f1d65fb072a6f18ce1f346dd96fbd53bc1e0d3c92"
 }
