@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RSVP with flankers - sentences with semantic and syntactic violations",
-  "description": "This dataset contains EEG recordings from an RSVP-with-flankers reading paradigm examining sentence processing of semantic and syntactic violations. Participants viewed 180 sentences containing subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct control sentences, presented word-by-word with flanking words visible. The study was conducted at the NeuroCognition Laboratory to investigate neural correlates of language comprehension using event-related potentials.",
-  "methods_description": "Participants sat in a darkened sound-attenuated room and viewed sentences on an LCD monitor at 152 cm viewing distance, presented via RSVP with flankers (three words shown simultaneously, each central word displayed for 400ms with no ISI, sliding rightward to reveal the next word). Stimuli comprised 180 sentences across five conditions: subject-verb agreement violations, semantic violations, combined violations, word-order violations, and correct controls (30 each except 60 controls). EEG was recorded while participants read the sentences and made behavioral responses via keyboard and verbal responses recorded with a headset.",
+  "description": "This dataset contains EEG recordings from participants performing a rapid serial visual presentation (RSVP) with flankers reading task involving sentences with semantic and syntactic violations. The study examined neural responses to subject-verb agreement violations, semantic violations, combined violations, and word-order violations compared to grammatically correct control sentences. Data were collected at the NeuroCognition Laboratory at San Diego State University under IRB approval.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room and viewed sentences presented via RSVP with flankers on an LCD monitor at 60 in viewing distance. Each sentence's critical center word was shown in white New Courier font with grey flanker words on either side, presented for 400ms per word with a sliding transition and no ISI. Stimuli included 180 sentences across five conditions: subject-verb agreement violations, semantic violations, double violations, word-order violations, and correct controls (30 each except 60 controls). Participants responded via keyboard and wore a headset for verbal responses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,9 +20,6 @@
       "term": "sentence processing"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
       "term": "semantic violation"
     },
     {
@@ -32,7 +29,7 @@
       "term": "RSVP"
     },
     {
-      "term": "psycholinguistics"
+      "term": "language comprehension"
     }
   ],
   "related_identifiers": [
