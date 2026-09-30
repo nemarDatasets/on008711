@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RSVP with flankers - sentences with semantic and syntactic violations",
-  "description": "This dataset contains EEG recordings from participants performing a rapid serial visual presentation (RSVP) with flankers reading task involving sentences with semantic and syntactic violations. The study examined neural responses to subject-verb agreement violations, semantic violations, combined violations, and word-order violations compared to grammatically correct control sentences. Data were collected at the NeuroCognition Laboratory at San Diego State University under IRB approval.",
-  "methods_description": "Participants sat in a darkened, sound-attenuated room and viewed sentences presented via RSVP with flankers on an LCD monitor at 60 in viewing distance. Each sentence's critical center word was shown in white New Courier font with grey flanker words on either side, presented for 400ms per word with a sliding transition and no ISI. Stimuli included 180 sentences across five conditions: subject-verb agreement violations, semantic violations, double violations, word-order violations, and correct controls (30 each except 60 controls). Participants responded via keyboard and wore a headset for verbal responses.",
+  "description": "EEG dataset recorded during rapid serial visual presentation (RSVP) of sentences with flanking words, in which the critical center word was shown between grey flanker words. Sentences contained subject-verb agreement violations, semantic violations, double violations, word-order violations, or no violation (controls). The dataset supports research on sentence processing and parafoveal word processing during reading.",
+  "methods_description": "Participants sat in a darkened, sound-attenuated room, viewing an LCD monitor at 152 cm, and responded with a keyboard and a headset for verbal responses. They read 180 sentences (30 each of agreement, semantic, double and word-order violations, plus 60 control sentences). Three words were shown at a time in an RSVP-with-flankers design: the white center word was flanked by grey words, each word appeared for 400 ms and slid to the right, and there was no ISI.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,16 +20,21 @@
       "term": "sentence processing"
     },
     {
+      "term": "RSVP"
+    },
+    {
+      "term": "flanker paradigm"
+    },
+    {
       "term": "semantic violation"
     },
     {
       "term": "syntactic violation"
     },
     {
-      "term": "RSVP"
-    },
-    {
-      "term": "language comprehension"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     }
   ],
   "related_identifiers": [
